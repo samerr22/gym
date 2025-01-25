@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
-import Cat from "../img/fff.jpg";
+import Cat from "../img/fff.
 
 
 export default function SignUp() {
