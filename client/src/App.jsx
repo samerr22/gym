@@ -32,8 +32,7 @@ export default function App() {
 
         <Route element={<PrivateRoute />}>
          
-          <Route path="/feed" element={<Feed/>} />
-          <Route path="/Feedpage" element={<Getfeed />} />
+        
           <Route path="/update-warehous/:feedId" element={<Feedup />} />
           <Route path="/form" element={<Form/>} />
           <Route path="/viewnotifi" element={<ViewNotifi/>} />
