@@ -33,8 +33,7 @@ export default function App() {
           <Route path="/update-warehous/:feedId" element={<Feedup />} />
           <Route path="/form" element={<Form/>} />
           <Route path="/viewnotifi" element={<ViewNotifi/>} />
-          <Route path="/checkbmi" element={<CheckBMI/>} />
-          <Route path="/dashprofil" element={<DashProfile/>} />
+        
           
         </Route>
 
