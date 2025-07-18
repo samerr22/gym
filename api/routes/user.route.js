@@ -1,10 +1,5 @@
 import express from 'express';
 import bcryptjs from "bcryptjs";
-import { errorHandle } from "../utils/error.js";
-import User from "../models/user.model.js";
-
-
-const router = express.Router();
 
 
 
