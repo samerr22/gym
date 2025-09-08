@@ -3,12 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "proxy": "http://localhost:3000",
-  "scripts": {
-    "start": "react-scripts start --port 3000",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "firebase": "^10.7.2",
