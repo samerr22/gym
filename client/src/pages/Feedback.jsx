@@ -6,9 +6,7 @@ import Cat from "../img/fff.
 
 
 export default function SignUp() {
-  const [formData, setFormData] = useState({});
-  const [errorMessage, setErrorMessage] = useState(null);
-  const [loading, setLoading] = useState(false);
+
  
   const { currentUser } = useSelector((state) => state.user);
 
