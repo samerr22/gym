@@ -3,32 +3,6 @@ import { useState } from "react";
 
 
 
-export default function SignUp() {
-
- 
-  const { currentUser } = useSelector((state) => state.user);
-
- console.log(currentUser)
-
- 
-  console.log(formData)
-
-
-
-  const handlchange = (e) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    
-
-    try {
-
-        const feedbak = {
-            ...formData,
-            CurrentuseId: currentUser._id
-          }
 
 
 
